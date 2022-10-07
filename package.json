@@ -12,7 +12,9 @@
   "files": [
     "stylelint.config.js"
   ],
-  "scripts": {},
+  "scripts": {
+    "release": "npm publish --no-git-checks --access public"
+  },
   "dependencies": {
     "postcss-html": "^1.5.0",
     "stylelint": "^14.13.0",
