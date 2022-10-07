@@ -1,0 +1,6 @@
+{
+  "extends":"@sujian/basic",
+   "parserOptions": {
+    "requireConfigFile": false
+  }
+}
