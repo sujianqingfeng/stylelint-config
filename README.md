@@ -3,7 +3,7 @@
 ## usage
 
 ```
-pnpm add @sujian/stylelint-config -D
+pnpm add stylelint @sujian/stylelint-config -D
 ```
 
 .stylelintrc.json
