@@ -32,6 +32,6 @@ package.json
   "editor.codeActionsOnSave": {
     "source.fixAll.stylelint": true
   },
-  "stylelint.validate": ["css", "scss","vue"],
+  "stylelint.validate": ["css", "scss", "vue", "less"],
 }
 ```

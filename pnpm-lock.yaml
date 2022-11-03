@@ -5,20 +5,28 @@ specifiers:
   eslint: ^8.24.0
   postcss: ^8.4.18
   postcss-html: ^1.5.0
+  postcss-less: ^6.0.0
   stylelint: ^14.13.0
+  stylelint-config-html: ^1.1.0
   stylelint-config-recommended-less: ^1.0.4
+  stylelint-config-recommended-scss: ^8.0.0
   stylelint-config-recommended-vue: ^1.4.0
   stylelint-config-standard: ^28.0.0
   stylelint-config-standard-scss: ^5.0.0
+  stylelint-less: ^1.0.6
 
 dependencies:
   postcss: 8.4.18
   postcss-html: 1.5.0
+  postcss-less: 6.0.0_postcss@8.4.18
   stylelint: 14.13.0
+  stylelint-config-html: 1.1.0_xhez2jbrlm5gsznvnryddq5rcu
   stylelint-config-recommended-less: 1.0.4
+  stylelint-config-recommended-scss: 8.0.0_5yg2enrd6w5uhqlhk7xeqwtyqm
   stylelint-config-recommended-vue: 1.4.0_xhez2jbrlm5gsznvnryddq5rcu
   stylelint-config-standard: 28.0.0_stylelint@14.13.0
   stylelint-config-standard-scss: 5.0.0_5yg2enrd6w5uhqlhk7xeqwtyqm
+  stylelint-less: 1.0.6_stylelint@14.13.0
 
 devDependencies:
   '@sujian/eslint-config-basic': 0.0.19_eslint@8.24.0
@@ -1399,6 +1407,15 @@ packages:
       postcss-safe-parser: 6.0.0_postcss@8.4.18
     dev: false
 
+  /postcss-less/6.0.0_postcss@8.4.18:
+    resolution: {integrity: sha512-FPX16mQLyEjLzEuuJtxA8X3ejDLNGGEG503d2YGZR5Ask1SpDN8KmZUMpzCvyalWRywAn1n1VOA5dcqfCLo5rg==}
+    engines: {node: '>=12'}
+    peerDependencies:
+      postcss: ^8.3.5
+    dependencies:
+      postcss: 8.4.18
+    dev: false
+
   /postcss-media-query-parser/0.2.3:
     resolution: {integrity: sha512-3sOlxmbKcSHMjlUXQZKQ06jOswE7oVkXPxmZdoB1r5l0q6gTFTQSHxNxOrCccElbW7dxNytifNEo8qidX2Vsig==}
     dev: false
@@ -1673,6 +1690,22 @@ packages:
       stylelint-scss: 4.3.0_stylelint@14.13.0
     transitivePeerDependencies:
       - postcss
+    dev: false
+
+  /stylelint-config-recommended-scss/8.0.0_5yg2enrd6w5uhqlhk7xeqwtyqm:
+    resolution: {integrity: sha512-BxjxEzRaZoQb7Iinc3p92GS6zRdRAkIuEu2ZFLTxJK2e1AIcCb5B5MXY9KOXdGTnYFZ+KKx6R4Fv9zU6CtMYPQ==}
+    peerDependencies:
+      postcss: ^8.3.3
+      stylelint: ^14.10.0
+    peerDependenciesMeta:
+      postcss:
+        optional: true
+    dependencies:
+      postcss: 8.4.18
+      postcss-scss: 4.0.5_postcss@8.4.18
+      stylelint: 14.13.0
+      stylelint-config-recommended: 9.0.0_stylelint@14.13.0
+      stylelint-scss: 4.3.0_stylelint@14.13.0
     dev: false
 
   /stylelint-config-recommended-vue/1.4.0_xhez2jbrlm5gsznvnryddq5rcu:
