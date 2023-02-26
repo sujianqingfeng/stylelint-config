@@ -24,6 +24,8 @@ module.exports = {
       {
         ignorePseudoElements: ['v-deep', ':deep']
       }
-    ]
+    ],
+    // 缩进
+    'indentation': 2,
   },
 }

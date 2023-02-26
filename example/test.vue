@@ -3,7 +3,7 @@
 </template>
 
 <style>
-  .test {
-    font-size: 20em;
-  }
+.test {
+  font-size: 20em;
+}
 </style>
